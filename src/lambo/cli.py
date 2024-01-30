@@ -16,8 +16,9 @@ def main(ctx: typer.Context):
     if not ctx.invoked_subcommand:
         print("test")
     
-
+def start():
+    Hue.register(hostname=app_config.hue.hostname, username=app_config.hue.username)
+    app() 
 
 if __name__ == "__main__":
-    Hue.register(hostname=app_config.hue.hostname, username=app_config.hue.username)
-    app()
+    start()

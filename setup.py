@@ -46,6 +46,6 @@ setup(
     package_dir={"": "src"},
     entry_points="""
         [console_scripts]
-        lambo=lambo.cli:app
+        lambo=lambo.cli:start
     """,
 )
