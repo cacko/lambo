@@ -1,0 +1,57 @@
+name: lambo
+channels:
+  - conda-forge
+dependencies:
+  - bzip2=1.0.8
+  - ca-certificates=2023.11.17
+  - libexpat=2.5.0
+  - libffi=3.4.2
+  - libsqlite=3.44.2
+  - libzlib=1.2.13
+  - ncurses=6.4
+  - openssl=3.2.0
+  - pip=23.3.2
+  - python=3.11.7
+  - readline=8.2
+  - setuptools=69.0.3
+  - tk=8.6.13
+  - tzdata=2023d
+  - wheel=0.42.0
+  - xz=5.2.6
+  - pip:
+      - annotated-types==0.6.0
+      - better-exceptions==0.3.3
+      - black==24.1.1
+      - certifi==2023.11.17
+      - charset-normalizer==3.3.2
+      - click==8.1.7
+      - colorama==0.4.6
+      - corelog==0.0.16
+      - flake8==7.0.0
+      - idna==3.6
+      - ifaddr==0.2.0
+      - markdown-it-py==3.0.0
+      - mccabe==0.7.0
+      - mdurl==0.1.2
+      - mypy-extensions==1.0.0
+      - packaging==23.2
+      - pathspec==0.12.1
+      - platformdirs==4.1.0
+      - pycodestyle==2.11.1
+      - pydantic==2.6.0
+      - pydantic-core==2.16.1
+      - pydantic-settings==2.1.0
+      - pyflakes==3.2.0
+      - pygments==2.17.2
+      - python-dotenv==1.0.1
+      - python-hue-v2==1.0.3
+      - requests==2.31.0
+      - rich==13.7.0
+      - semver==3.0.2
+      - shellingham==1.5.4
+      - structlog==24.1.0
+      - typer==0.9.0
+      - typing-extensions==4.9.0
+      - urllib3==2.1.0
+      - zeroconf==0.131.0
+prefix: /Volumes/Devo/Users/jago/miniforge3/envs/lambo
